@@ -1,0 +1,19 @@
+.container {
+    height: 375px;
+    overflow-y: scroll;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+  }
+  
+  .container > div > div:last-child {
+    scroll-snap-align: end;
+  }
+  
+  /* .container > div > div {
+    background: lightgray;
+    height: 3rem;
+    font-size: 1.5rem;
+  } */
+  /* .container > div > div:nth-child(2n) {
+    background: #DDAED2
+  } */
